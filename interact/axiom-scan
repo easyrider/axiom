@@ -70,7 +70,7 @@ cat << EOF
 axiom-scan provides easy distribution of arbitrary binaries and scripts.
 axiom-scan splits user-provided input files (target lists), wordlists and configuration files and uploads them to a unique scan working directory on the remote instance.
 axiom-scan combines user-provided command-line arguments with commands in the module to execute the final command on the remote instance.
-axiom-scan downloads and merges scan output in a variety of differnet formats, depening on the module's  the extention must be specified in the module (dir, txt, csv, xml).
+axiom-scan downloads and merges scan output in a variety of differnet formats, specified by the extention in the module (dir, txt, csv, xml).
 individual scanning operations are conducted inside a detacted tmux session (\$module+\$timestamp) with a unique scan working directory (/home/op/scan/\$module+\$timestamp) on the remote instances.
 
 Usage:
